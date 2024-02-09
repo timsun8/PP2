@@ -1,5 +1,11 @@
-class it():
-    def __init():
+class myClass():
+
+    def getString(self):
+        self.userInput = input()
+    def printString(self):
+        print(self.userInput.upper())
     
-    def getString():
-    
+x = myClass()
+x.getString()
+
+x.printString()
