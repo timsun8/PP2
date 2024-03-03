@@ -64,7 +64,7 @@ with open('C:\Users\Timur\Desktop\PP2\Lab6\demo.txt', 'r') as file1, open('/User
     file2.write(line)
 
 # 8
-path = ''
+path = 'C:\Users\Timur\Desktop\PP2\Lab6\t2.txt'
 path_bool = os.access(path, os.F_OK)
 
 if path_bool == False:
